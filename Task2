@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RedAndGreen</title>
+
+<style>
+#square1{
+	
+	width: 300px;
+	height: 300px;
+	border: 5px;
+    color:  red;
+    
+}
+#square2 {
+	width: 300px;
+	height: 300px;
+	border: 5px;
+    color: green;
+   
+}
+
+</style>
+</head>
+<body>
+<div id="square1">Square1</div>
+<button onClick="square1()">Make red</button><br>
+<div id="square2">Square2</div>
+<button onclick="square2()">Make green</button>
+
+<script type="text/JavaScript">
+    function square1 () {
+	var square1 = document.getElementById('square1').style.backgroundColor = "red";
+};
+ function square2 () {
+ 	var square2 = document.getElementById('square2').style.backgroundColor = "green";
+ };
+
+</script>
+</body>
+</html>
