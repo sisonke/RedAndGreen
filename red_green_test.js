@@ -12,7 +12,7 @@
    rg.makeRed();
    // myElements backgound should be red now
    if(document.getElementById("mySquare").style.backgroundColor === "red") {
-   		window.alert("sucess");
+   		window.alert("success");
    }
    else {
    		window.alert("failure");
