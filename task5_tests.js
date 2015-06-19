@@ -8,9 +8,9 @@
 
 setBackgroundColor('mySquare','red');
 if(document.getElementById('mySquare').style.backgroundColor === 'red') {
-	window.alert('failure');
+	window.alert('success');
 }
 else {
-	window.alert('success');
+	window.alert('failure');
     }
 })();
